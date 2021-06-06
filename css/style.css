@@ -1,0 +1,59 @@
+@import "./button.css";
+@import "./button-icons.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./mensaje.css";
+@import "./project.css";
+@import "./social.css";
+@import "./footer.css";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: all 0.4s;
+	scroll-behavior: smooth;
+	color: var(--darkPrimary);
+}
+
+:root {
+	--fontBase: "Annie Use Your Telescope", cursive;
+	--headline1: bold 95px/154px var(--fontBase);
+	--headline2: bold 59px/95px var(--fontBase);
+	--headline3: bold 48px/77px var(--fontBase);
+	--headline4: bold 34px/55px var(--fontBase);
+	--headline5: bold 24px/38px var(--fontBase);
+	--body1: 20px/28px var(--fontBase);
+	--body2: 16px/24px var(--fontBase);
+	--button: bold 24px/32px var(--fontBase);
+	--button2: bold 18px/26px var(--fontBase);
+	--caption: 12px/19px var(--fontBase);
+	--greenPrimary: #1c9954;
+	--darkPrimary: #1d2936;
+	--white: #ededed;
+	--hovered: rgb(230, 218, 118);
+	--gradient: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+body {
+	background: var(--gradient);
+	min-block-size: 100vh;
+	font: var(--body1);
+	margin-inline: 4%;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	block-size: 80px;
+	position: sticky;
+	top: 0;
+	backdrop-filter: blur(6px);
+}
+
+.logo {
+	height: 80px;
+	margin-top: 1em;
+}

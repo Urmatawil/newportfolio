@@ -1,0 +1,37 @@
+.btn-cv {
+	color: var(--white);
+	background: var(--greenPrimary);
+	font: var(--button2);
+	border: none;
+	padding-inline-start: 24px;
+	padding-inline-end: 24px;
+	padding-block-start: 13px;
+	padding-block-end: 13px;
+	border-radius: 4px;
+	text-decoration: none;
+	text-align: center;
+	box-shadow: -4px 4px 0 var(--darkPrimary);
+}
+
+.btn-cv-secondary {
+	background: unset;
+	border: 2px solid var(--greenPrimary);
+	color: var(--greenPrimary);
+}
+
+.btn-cv:hover {
+	color: var(--white);
+	background: var(--greenPrimary);
+	box-shadow: -4px 4px 0 var(--darkPrimary);
+}
+
+@media screen and (min-width: 768px) {
+	.btn-cv {
+		font: var(--button);
+		color: var(--greenPrimary);
+		font: var(--button);
+		background: var(--white);
+		border: 3px solid var(--greenPrimary);
+		box-shadow: -4px 4px 0 var(--white);
+	}
+}

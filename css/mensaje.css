@@ -1,0 +1,82 @@
+.mensaje {
+	padding-block-start: 6em;
+}
+
+.lang span,
+.frames span,
+.tecno span {
+	font: var(--body1);
+	display: block;
+}
+
+.img-lng {
+	width: 48.8px;
+	height: 51.4167px;
+}
+
+.lang-icons,
+.frames-icons,
+.tecno-icons {
+	padding-block-start: 1em;
+	padding-block-end: 1em;
+}
+
+@media screen and (min-width: 768px) {
+	.mensaje {
+		min-height: 800px;
+		padding-block-start: 6em;
+		padding-block-end: 6em;
+		display: grid;
+		grid-template-areas:
+			"left left nope"
+			"none right right"
+			"bottom bottom nop";
+		grid-template-columns: 3fr 1fr 3fr;
+		grid-template-rows: 300px 300px 300px;
+	}
+
+	.lang {
+		grid-area: left;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.lang .lang-icons {
+		max-inline-size: 60%;
+	}
+
+	.frames {
+		grid-area: right;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-end;
+	}
+
+	.frames .frames-icons {
+		max-inline-size: 60%;
+	}
+
+	.tecno {
+		grid-area: bottom;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.tecno .tecno-icons {
+		max-inline-size: 60%;
+	}
+
+	.lang span,
+	.frames span,
+	.tecno span {
+		font: var(--headline5);
+	}
+}
