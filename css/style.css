@@ -50,7 +50,7 @@ header {
 	block-size: 80px;
 	position: sticky;
 	top: 0;
-	backdrop-filter: blur(6px);
+	backdrop-filter: blur(10px);
 }
 
 .logo {
