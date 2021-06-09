@@ -24,11 +24,11 @@
 	--headline3: bold 48px/77px var(--fontBase);
 	--headline4: bold 34px/55px var(--fontBase);
 	--headline5: bold 24px/38px var(--fontBase);
-	--body1: 20px/28px var(--fontBase);
-	--body2: 16px/24px var(--fontBase);
+	--body1: 22px/28px var(--fontBase);
+	--body2: 18px/26px var(--fontBase);
 	--button: bold 24px/32px var(--fontBase);
 	--button2: bold 18px/26px var(--fontBase);
-	--caption: 12px/19px var(--fontBase);
+	--caption: 16px/22px var(--fontBase);
 	--greenPrimary: #1c9954;
 	--darkPrimary: #1d2936;
 	--white: #ededed;
@@ -54,6 +54,12 @@ header {
 }
 
 .logo {
-	height: 80px;
+	height: 120px;
 	margin-top: 1em;
+}
+
+@media screen and (min-width: 768px) {
+	.logo {
+		height: 160px;
+	}
 }

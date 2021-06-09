@@ -3,10 +3,10 @@
 	background: var(--greenPrimary);
 	font: var(--button2);
 	border: none;
-	padding-inline-start: 24px;
-	padding-inline-end: 24px;
-	padding-block-start: 13px;
-	padding-block-end: 13px;
+	padding-inline-start: 20px;
+	padding-inline-end: 20px;
+	padding-block-start: 10px;
+	padding-block-end: 10px;
 	border-radius: 4px;
 	text-decoration: none;
 	text-align: center;
