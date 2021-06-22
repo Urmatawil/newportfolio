@@ -17,6 +17,16 @@
 	color: var(--darkPrimary);
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		--greenPrimary: #3d5a80;
+		--darkPrimary: #eee;
+		--white: #eee;
+		--hovered: #ee6c4d;
+		--gradient: linear-gradient(to right, #3d5a80 0%, #293241 100%);
+	}
+}
+
 :root {
 	--fontBase: "Annie Use Your Telescope", cursive;
 	--headline1: bold 95px/154px var(--fontBase);
@@ -24,16 +34,16 @@
 	--headline3: bold 48px/77px var(--fontBase);
 	--headline4: bold 34px/55px var(--fontBase);
 	--headline5: bold 24px/38px var(--fontBase);
+	--greenPrimary: #3d5a80;
+	--darkPrimary: #293241;
+	--white: #eee;
+	--hovered: #ee6c4d;
+	--gradient: linear-gradient(to right, #e0fbfc 0%, #98c1d9 100%);
 	--body1: 22px/28px var(--fontBase);
 	--body2: 18px/26px var(--fontBase);
 	--button: bold 24px/32px var(--fontBase);
 	--button2: bold 18px/26px var(--fontBase);
 	--caption: 16px/22px var(--fontBase);
-	--greenPrimary: #1c9954;
-	--darkPrimary: #1d2936;
-	--white: #ededed;
-	--hovered: rgb(230, 218, 118);
-	--gradient: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 
 body {
