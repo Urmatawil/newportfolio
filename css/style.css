@@ -67,11 +67,6 @@ header {
 
 .logo {
 	height: 100px;
+	width: 100px;
 	margin-top: 0.6em;
-}
-
-@media screen and (min-width: 768px) {
-	.logo {
-		height: 100px;
-	}
 }
