@@ -14,7 +14,8 @@
 
 .hero-image img {
 	max-inline-size: 100%;
-	block-size: auto;
+	width: 280px;
+	height: 380px;
 }
 
 .hero p {
@@ -45,7 +46,7 @@
 
 	.hero-description {
 		order: 1;
-		max-inline-size: 450px;
+		max-inline-size: 420px;
 	}
 
 	.hero-image {
@@ -62,6 +63,7 @@
 
 @media screen and (min-width: 1024px) {
 	.hero-image img {
-		block-size: 520px;
+		width: 320px;
+		height: 420px;
 	}
 }
