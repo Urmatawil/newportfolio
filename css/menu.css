@@ -13,6 +13,7 @@
 	color: var(--darkPrimary);
 	font: var(--button);
 	text-transform: uppercase;
+	font-size: var(--headline5);
 }
 
 .menu ul li a.active {

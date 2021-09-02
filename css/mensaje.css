@@ -30,9 +30,10 @@
 		grid-template-areas:
 			"left left nope"
 			"none right right"
-			"bottom bottom nop";
+			"center center no"
+			"nop bottom bottom";
 		grid-template-columns: 3fr 1fr 3fr;
-		grid-template-rows: 300px 300px 300px;
+		grid-template-rows: 300px 300px 300px 300px;
 	}
 
 	.lang {
@@ -61,13 +62,26 @@
 		max-inline-size: 60%;
 	}
 
+	.bd {
+		grid-area: center;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.bd .bd-icons {
+		max-inline-size: 60%;
+	}
+
 	.tecno {
 		grid-area: bottom;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: flex-start;
+		align-items: flex-end;
 	}
 
 	.tecno .tecno-icons {
@@ -76,6 +90,7 @@
 
 	.lang span,
 	.frames span,
+	.bd span,
 	.tecno span {
 		font: var(--headline5);
 	}

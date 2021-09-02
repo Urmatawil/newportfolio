@@ -4,11 +4,26 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap"
-			rel="stylesheet"
+		<meta
+			name="description"
+			content="Portfolio Rafael Ramirez | Web development"
 		/>
+		<meta
+			name="keywords"
+			content="html, css, javascript, fullstack, frontend, backend, NodeJs, ReactJS"
+		/>
+		<meta name="robots" content="index, follow" />
+		<link rel="canonical" href="https://portfolio-rafael.netlify.app/" />
+		<meta name="author" content="Rafael Ramirez" />
+		<meta
+			property="og:title"
+			content="Portafolio desarrollador web Rafael Ramirez"
+		/>
+		<meta
+			property="og:site_name"
+			content="Portafolio desarrollador web Rafael Ramirez"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link rel="preload" as="style" href="./css/style.css" />
 		<link rel="stylesheet" href="./css/style.css" />
 		<script src="./js/index.js" defer></script>
@@ -17,7 +32,7 @@
 	<body>
 		<header id="header">
 			<a href="#main"
-				><img class="logo" src="./images/logo.webp" alt="logo"
+				><img class="logo" src="./images/logo.svg" alt="logo"
 			/></a>
 			<nav class="menu">
 				<ul>
@@ -32,13 +47,12 @@
 					</li>
 				</ul>
 			</nav>
-			<button
+			<a
 				href="https://drive.google.com/file/d/10CdfM80tkiLYc7YvqtUWmcqPGfM_ln7L/view?usp=sharing"
 				target="_blank"
 				class="btn-cv"
+				>Download CV</a
 			>
-				Curriculum
-			</button>
 		</header>
 		<div class="wrapper">
 			<section class="hero" id="main">
@@ -133,7 +147,8 @@
 					</div>
 					<div class="frames">
 						<span>
-							I have carried out projects using VueJS, React y Django.
+							I have worked on some frameworks such as React and Vue on the
+							Front, as well as working on the Back with NodeJS and Django.
 						</span>
 						<div class="frames-icons">
 							<img
@@ -148,7 +163,30 @@
 								class="button-icon img-lng"
 							/>
 							<img
+								src="./images/node-dot-js.svg"
+								alt=""
+								class="button-icon img-lng"
+							/>
+							<img
 								src="./images/django.svg"
+								alt=""
+								class="button-icon img-lng"
+							/>
+						</div>
+					</div>
+					<div class="bd">
+						<span>
+							I have used databases relational and non-relational like MySQL and
+							MondoDB
+						</span>
+						<div class="tecno-icons">
+							<img
+								src="./images/mysql.svg"
+								alt=""
+								class="button-icon img-lng"
+							/>
+							<img
+								src="./images/mongodb.svg"
 								alt=""
 								class="button-icon img-lng"
 							/>
@@ -156,23 +194,25 @@
 					</div>
 					<div class="tecno">
 						<span>
-							I also know how to use these technologies: Javascript, Python y
-							PHP.
+							I also know how to use these technologies: Git, npm, webpack,
+							figma.
 						</span>
 						<div class="tecno-icons">
+							<img src="./images/git.svg" alt="" class="button-icon img-lng" />
 							<img
-								src="./images/javascript-1.svg"
-								alt=""
-								class="button-icon img-lng"
-							/>
-							<img
-								src="./images/brand-python.svg"
+								src="./images/logo-npm.svg"
 								alt=""
 								class="button-icon img-lng"
 							/>
 							<img
 								loading="lazy"
-								src="./images/php.svg"
+								src="./images/webpack.svg"
+								alt=""
+								class="button-icon img-lng"
+							/>
+							<img
+								loading="lazy"
+								src="./images/figma-logo.svg"
 								alt=""
 								class="button-icon img-lng"
 							/>
@@ -223,25 +263,26 @@
 
 			<footer class="footer">
 				<div class="footer-logo">
-					<img class="logo" src="./images/logo.webp" alt="logo" />
+					<img class="logo" src="./images/logo.svg" alt="logo" />
 				</div>
 				<nav class="social">
 					<a class="button-icon" href="tel:+56958545596"
 						><img loading="lazy" src="./images/phone.svg" alt=""
 					/></a>
-					<a class="button-icon" href="tel:+56958545596"
+					<a
+						class="button-icon"
+						href="https://twitter.com/messages/compose?recipient_id=92409599"
 						><img loading="lazy" src="./images/mail.svg" alt=""
 					/></a>
-					<a class="button-icon" href="tel:+56958545596"
+					<a class="button-icon" href="https://github.com/Urmatawil"
 						><img loading="lazy" src="./images/github.svg" alt=""
 					/></a>
-					<a class="button-icon" href="tel:+56958545596"
+					<a class="button-icon" href="https://www.linkedin.com/in/urmatawil/"
 						><img loading="lazy" src="./images/linkedin.svg" alt=""
 					/></a>
 				</nav>
 				<div class="footer-info">
-					<p>Larga vida al DEV!</p>
-					<p>guaDEVfoc 2021</p>
+					<p>Urmatawil 2021</p>
 				</div>
 			</footer>
 		</div>

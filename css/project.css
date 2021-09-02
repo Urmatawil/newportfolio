@@ -30,9 +30,10 @@
 	margin: 2px;
 	vertical-align: middle;
 	overflow: hidden;
+	opacity: 1;
 }
 
-.panel .title h3 {
+.panel h3 {
 	opacity: 0;
 	color: var(--darkPrimary);
 	position: absolute;
@@ -45,7 +46,11 @@
 
 .panel.active h3 {
 	opacity: 1;
-	transition: opacity 0.6s ease-in 0.3s;
+	transition: opacity 0.6s ease-in 0.4s;
+}
+.panel.active img {
+	opacity: 0;
+	transition: opacity 0.6s ease-in 0.1s;
 }
 
 .title-Projects {
