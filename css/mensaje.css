@@ -92,6 +92,6 @@
 	.frames span,
 	.bd span,
 	.tecno span {
-		font: var(--headline5);
+		font: 32px;
 	}
 }

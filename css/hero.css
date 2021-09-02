@@ -28,7 +28,7 @@
 }
 
 .hero h1 span:nth-of-type(1) {
-	font: var(--headline5);
+	font: 30px);
 	display: block;
 }
 
