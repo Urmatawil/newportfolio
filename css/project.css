@@ -55,7 +55,7 @@
 
 .title-Projects {
 	padding-block-end: 1em;
-	font: 40px;
+	font-size: 30px;
 }
 
 @media screen and (min-width: 768px) {
