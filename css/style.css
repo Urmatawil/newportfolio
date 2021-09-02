@@ -27,7 +27,6 @@
 }
 
 :root {
-	
 	--greenPrimary: #3d5a80;
 	--darkPrimary: #293241;
 	--white: #eee;
@@ -100,15 +99,17 @@ header {
 .hero p {
 	text-align: justify;
 	font-size: 20px;
+	line-height: 1.5em;
 }
 
 .hero h1 {
-	font: 38px;
+	font-size: 36px;
 	margin: 0;
+	line-height: 1.2em;
 }
 
 .hero h1 span:nth-of-type(1) {
-	font: 28px);
+	font-size: 24px;
 	display: block;
 }
 

@@ -93,5 +93,6 @@
 	.bd span,
 	.tecno span {
 		font-size: 20px;
+		line-height: 1.5em;
 	}
 }
