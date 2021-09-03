@@ -33,7 +33,7 @@
 	opacity: 1;
 }
 
-.panel h3 {
+.panel h2 {
 	opacity: 0;
 	color: var(--darkPrimary);
 	position: absolute;
