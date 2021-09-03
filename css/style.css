@@ -49,10 +49,11 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	block-size: 80px;
+	block-size: 86px;
+	padding-inline: 10px;
 	position: sticky;
 	top: 0;
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(6px);
 	z-index: 1;
 }
 
