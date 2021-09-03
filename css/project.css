@@ -44,7 +44,7 @@
 	opacity: 1;
 }
 
-.panel.active h3 {
+.panel.active h2 {
 	opacity: 1;
 	transition: opacity 0.6s ease-in 0.4s;
 }
