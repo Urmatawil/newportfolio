@@ -18,10 +18,10 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--greenPrimary: #3d5a80;
+		--greenPrimary: #5083c7;
 		--darkPrimary: #eee;
 		--white: #eee;
-		--hovered: #ee6c4d;
+		--hovered: #f8a590;
 		--gradient: linear-gradient(to right, #3d5a80 0%, #293241 100%);
 	}
 }
