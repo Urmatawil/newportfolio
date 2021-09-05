@@ -25,7 +25,7 @@
 	.mensaje {
 		min-height: 800px;
 		padding-block-start: 6em;
-		padding-block-end: 6em;
+		padding-block-end: 2em;
 		display: grid;
 		grid-template-areas:
 			"left left nope"
