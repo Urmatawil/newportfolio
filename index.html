@@ -43,14 +43,14 @@
 						<a
 							target="_blank"
 							rel="nofollow noopener noreferrer"
-							href="https://twitter.com/messages/compose?recipient_id=92409599"
+							href="#contact"
 							>Let's talk</a
 						>
 					</li>
 				</ul>
 			</nav>
 			<a
-				href="https://drive.google.com/file/d/1laaLRx1T147EIKnMSLa9aji9BQEumSBD/view"
+				href="https://drive.google.com/u/0/uc?id=1laaLRx1T147EIKnMSLa9aji9BQEumSBD&export=download"
 				target="_blank"
 				rel="nofollow noopener noreferrer"
 				class="btn-cv"
@@ -61,12 +61,11 @@
 			<section class="hero" id="main">
 				<div class="hero-image">
 					<img
-						
 						class="foto-perfil"
 						srcset="./images/profile-small.webp 400w, ./images/profile-mid.webp 640w"
 						src="./images/profile-small.webp"
 						alt="Rafael Ramirez"
-					/>
+						/>
 				</div>
 				<div class="hero-description">
 					<h1>
@@ -85,7 +84,7 @@
 						/></a>
 						<a
 							class="button-icon"
-							href="https://twitter.com/messages/compose?recipient_id=92409599"
+							href="#contact"
 							><img loading="lazy" width="24px" height="24px" src="./images/mail.svg" alt="message-icon"
 						/></a>
 						<a
@@ -112,10 +111,11 @@
 						/></a>
 					</nav>
 					<a
-						href="https://drive.google.com/file/d/1laaLRx1T147EIKnMSLa9aji9BQEumSBD/view"
+						href="https://drive.google.com/u/0/uc?id=1laaLRx1T147EIKnMSLa9aji9BQEumSBD&export=download"
 						target="_blank"
 						rel="nofollow noopener noreferrer"
 						class="btn-cv"
+						download="CV-Rafael"
 						>Download CV</a
 					>
 				</div>
@@ -328,6 +328,16 @@
 				</div>
 			</section>
 
+			<form name="contact" id="contact" method="POST" data-netlify="true" action="/submit">
+				<label for="userContact">Your Name: </label>
+				<input type="text" name="userContact" id="userContact" placeholder="john doe" required autocomplete="off">
+				<label for="userEmail">Your Email: </label>
+				<input type="email" name="userEmail" id="userEmail" placeholder="jonh@email.com" required autocomplete="off">
+				<label for="message">Message: </label>
+				<textarea name="message"></textarea>
+				<input class="btn-cv" id="send-btn" type="submit" value="Contact me">
+			</form>
+
 			<footer class="footer">
 				<div class="footer-logo">
 					<img loading="lazy" class="logo" src="./images/logo.svg" alt="logo" />
@@ -338,7 +348,7 @@
 					/></a>
 					<a
 						class="button-icon"
-						href="https://twitter.com/messages/compose?recipient_id=92409599" rel="nofollow noopener noreferrer"
+						href="#contact" rel="nofollow noopener noreferrer"
 						><img loading="lazy" width="24px" height="24px" src="./images/mail.svg" alt="email"
 					/></a>
 					<a class="button-icon" href="https://github.com/Urmatawil" rel="nofollow noopener noreferrer"

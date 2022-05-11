@@ -3,6 +3,7 @@
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	padding-block-start: 2em;
 	padding-block-end: 2em;
 }
 
