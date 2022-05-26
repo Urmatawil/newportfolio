@@ -1,4 +1,5 @@
 .button-icon {
+	transition: all 0.4s;
 	padding: 10px;
 	border-radius: 4px;
 	background: var(--white);
@@ -16,6 +17,7 @@
 }
 
 .button-icon:hover {
+	transition: all 0.4s;
 	transform: scale(1.1);
 	background: var(--hovered);
 	box-shadow: -4px 4px 0 var(--greenPrimary);

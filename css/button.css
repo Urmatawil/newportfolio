@@ -1,4 +1,5 @@
 .btn-cv {
+	transition: all 0.4s;
 	color: var(--white);
 	background: var(--greenPrimary);
 	font: var(--button2);
@@ -14,12 +15,14 @@
 }
 
 .btn-cv-secondary {
+	transition: all 0.4s;
 	background: unset;
 	border: 2px solid var(--greenPrimary);
 	color: var(--greenPrimary);
 }
 
 .btn-cv:hover {
+	transition: all 0.4s;
 	color: var(--white);
 	background: var(--greenPrimary);
 	box-shadow: -4px 4px 0 var(--darkPrimary);
